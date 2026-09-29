@@ -148,11 +148,32 @@ flowchart TD
 
 ### 6.1. 설치절차 및 실행 방법
 
-- 준비 환경: Python 3.12, Sports2D 실행 환경
-- 선택 사항: 영상 배속 생성용 `ffmpeg` (없으면 원본 속도로 재생)
-- 의존성 설치 명령, Streamlit 진입점과 포트는 실제 업로드한 코드·설정 파일을 확인한 뒤 기재합니다.
+Windows PowerShell에서 실행합니다. Sports2D의 [공식 설치 안내](https://github.com/davidpagnon/Sports2D)를 따라 `uv`로 Python 3.12 환경을 준비합니다. 이미 `pose2sim` 환경을 만들어 사용하고 있다면 생성 단계는 생략하고 해당 환경을 활성화합니다.
 
-<!-- 코드 업로드 후 검증한 명령어를 Windows PowerShell 기준으로 여기에 추가하세요. -->
+- 준비 환경: Git, Python 3.12를 사용하는 `uv` 가상환경
+- 선택 사항: 영상 배속 생성용 `ffmpeg` (없으면 원본 속도로 재생)
+
+```powershell
+git clone https://github.com/pnucse-capstone2026/capstone-2026-team-11.git
+cd capstone-2026-team-11
+
+# uv가 설치되지 않은 PC에서 한 번만 실행
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# 가상환경 생성(처음 한 번) 및 활성화
+uv venv "$env:USERPROFILE\.venv\pose2sim" --python 3.12
+& "$env:USERPROFILE\.venv\pose2sim\Scripts\Activate.ps1"
+
+# 프로젝트와 Sports2D 의존성 설치
+uv pip install -r requirements.txt
+uv pip install sports2d --upgrade
+uv pip install plotly
+
+# 프로젝트 루트에서 앱 실행
+streamlit run app\app.py
+```
+
+실행 후 터미널에 표시되는 `Local URL`을 브라우저에서 엽니다. `requirements.txt`에 Sports2D와 Plotly가 없으므로 별도 설치 명령을 적었습니다. Sports2D 모델·설정, 기준 투수 영상과 기존 분석 결과는 저장소에 포함된 범위에 따라 별도로 준비해야 할 수 있습니다. 새 PC에서 전체 파이프라인의 재현은 아직 검증하지 않았습니다.
 
 ### 6.2. 오류 발생 시 해결 방법
 
