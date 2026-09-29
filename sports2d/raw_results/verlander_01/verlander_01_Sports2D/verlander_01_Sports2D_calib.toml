@@ -1,0 +1,12 @@
+[verlander_01_pitcher_roi]
+name = "verlander_01_pitcher_roi"
+size = [ 264, 544]
+matrix = [ [ 1898.901535925472, 0.0, 132.0], [ 0.0, 1898.901535925472, 272.0], [ 0.0, 0.0, 1.0]]
+distortions = [ 0.0, 0.0, 0.0, 0.0]
+rotation = [ 1.2076055614831454, 1.2102221152491461, -1.2076055614831454]
+translation = [ -0.6969676092901764, 0.8442356051796356, 10.0]
+fisheye = false
+
+[metadata]
+adjusted = false
+error = 0.0
