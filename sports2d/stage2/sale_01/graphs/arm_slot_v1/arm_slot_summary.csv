@@ -1,0 +1,2 @@
+﻿release_candidate_frame,analysis_start_frame,analysis_end_frame,frames_used,projected_upper_arm_angle_deg,projected_upper_arm_elevation_abs_deg,projected_forearm_angle_deg,projected_arm_line_angle_deg,estimated_arm_slot,arm_slot_confidence,arm_slot_method,is_statcast_arm_angle
+178,173,178,2,-156.20783969924696,156.20783969924696,62.87049671314401,131.47697968784144,High Overhand,low-medium,pre-release median shoulder-to-elbow 2D projection,False
