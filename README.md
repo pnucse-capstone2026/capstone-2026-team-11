@@ -82,9 +82,7 @@ flowchart TD
 
 ### 4.2. 졸업과제 소개 동영상
 
-졸업과제 소개 동영상이 [부산대학교 정보컴퓨터공학부 YouTube 채널](https://www.youtube.com/channel/UCl6NSPKixz2Jdt1F5SwdVOQ)에 업로드되면 **해당 동영상의 개별 링크를 이 위치에 연결**합니다. 현재는 게시 전이므로 영상 링크를 기재하지 않습니다.
-
-<!-- 게시 후 예시: [▶ 11조 오타니 졸업과제 소개 동영상](https://www.youtube.com/watch?v=실제영상ID) -->
+[▶ 11조 오타니 졸업과제 소개 동영상](https://www.youtube.com/watch?v=HwnJrmjYTCU)
 
 ## 5. 개발 결과
 
