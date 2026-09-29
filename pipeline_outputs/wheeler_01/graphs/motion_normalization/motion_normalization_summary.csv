@@ -1,0 +1,2 @@
+﻿pitch_id,pitcher_name,throwing_side,knee_lift_frame,front_foot_contact_frame,release_frame,knee_lift_to_fc_sec,fc_to_release_sec,knee_lift_to_release_sec,fc_normalized_percent,knee_lift_source,front_foot_contact_source,release_source,release_confidence,arm_slot,arm_slot_angle_deg,arm_slot_confidence
+wheeler_01,Zack Wheeler,right,131,175,180,0.7457627118644061,0.08474576271186418,0.8305084745762703,89.79591836734694,manual_reference,sports2d,sports2d_raw_peak_fallback,medium,Three-Quarter,43.93382786005191,low

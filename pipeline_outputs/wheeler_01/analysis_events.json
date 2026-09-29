@@ -1,0 +1,50 @@
+{
+  "pitch_id": "wheeler_01",
+  "pitcher_name": "Zack Wheeler",
+  "throwing_side": "right",
+  "events": {
+    "knee_lift": {
+      "frame": 131,
+      "source": "manual_reference",
+      "confidence": "manual"
+    },
+    "front_foot_contact": {
+      "frame": 175,
+      "source": "sports2d",
+      "confidence": "unknown"
+    },
+    "release": {
+      "frame": 180,
+      "source": "sports2d_raw_peak_fallback",
+      "confidence": "medium"
+    }
+  },
+  "arm_slot": {
+    "category": "Three-Quarter",
+    "angle_deg": 43.93382786005191,
+    "confidence": "low",
+    "source": "sports2d_2d_projected"
+  },
+  "reference": {
+    "knee_lift_frame": 131,
+    "front_foot_contact_frame": null,
+    "release_frame": null,
+    "arm_slot_label": "three_quarter"
+  },
+  "automatic": {
+    "front_foot_contact_frame": 175,
+    "release_frame": 180,
+    "release_source": "sports2d_raw_peak_fallback",
+    "release_confidence": "medium",
+    "arm_slot_category": "Three-Quarter",
+    "arm_slot_angle_deg": 43.93382786005191,
+    "arm_slot_confidence": "low"
+  },
+  "metadata": {
+    "fps": 59.000000000000156,
+    "coordinate_system": "single_camera_2d",
+    "release_definition": "wrist_motion_based_candidate",
+    "arm_slot_definition": "2d_projected_shoulder_to_wrist",
+    "manual_overrides_applied": false
+  }
+}
