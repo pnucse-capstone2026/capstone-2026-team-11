@@ -1,0 +1,27 @@
+{
+  "label": "wheeler_01",
+  "input_csv": "C:\\Users\\dkfc9\\Desktop\\pitching_analysis\\sports2d\\stage2\\wheeler_01\\pose_csv\\wheeler_01_sports2d_wrist_motion_validated.csv",
+  "throwing_side": "right",
+  "fps": 59.000000000000156,
+  "preliminary_release_anchor_frame": 180,
+  "preliminary_anchor_source": "raw_peak_fallback",
+  "preliminary_anchor_confidence": "medium",
+  "front_foot_contact_frame": 175,
+  "fc_offset_sec_from_preliminary_anchor": -0.08474576271186418,
+  "final_release_frame": 180,
+  "fc_to_final_release_frames": 5,
+  "fc_to_final_release_sec": 0.08474576271186418,
+  "final_release_source": "raw_peak_normal_fallback",
+  "final_release_confidence": "medium",
+  "arm_slot": "Three-Quarter",
+  "arm_slot_confidence": "low",
+  "arm_slot_angle_deg": 43.93382786005191,
+  "arm_slot_frame_used": 178,
+  "arm_slot_fallback_used": true,
+  "arm_slot_fallback_reason": "three_frame_representative_posture",
+  "arm_slot_underhand_state": false,
+  "notes": {
+    "release": "Wrist-motion based automatic release candidate; not direct ball-separation ground truth.",
+    "arm_slot": "2D projected shoulder-to-wrist based categorical estimate; not Statcast Arm Angle or 3D biomechanical arm slot."
+  }
+}
