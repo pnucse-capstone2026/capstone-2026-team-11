@@ -1,0 +1,19 @@
+{
+  "fps": 59.000000000000156,
+  "speed_column": "wrist_relative_speed_body_s_smooth",
+  "valid_mask_column": "wrist_speed_valid",
+  "raw_peak_frame": 123,
+  "raw_peak_speed": 13.528110880390678,
+  "validated_peak_frame": 112,
+  "validated_peak_speed": 6.710596885339347,
+  "peak_disagreement_frames": 11,
+  "peak_disagreement_sec": 0.1864406779661012,
+  "disagreement_threshold_sec": 0.08,
+  "preliminary_release_anchor_frame": 123,
+  "preliminary_release_anchor_speed": 13.528110880390678,
+  "anchor_source": "raw_peak_fallback",
+  "anchor_confidence": "medium",
+  "reason": "validated peak disagrees strongly with raw peak; raw peak used as preliminary anchor",
+  "is_final_release": false,
+  "note": "Preliminary wrist-motion anchor for FC search; not final ball release."
+}
