@@ -1,0 +1,4 @@
+﻿event,frame,timestamp,normalized_percent,source,confidence
+Maximum Knee Lift,46,0.7796610169491526,0.0,manual_reference,manual
+Front Foot Contact,116,1.9661016949152543,90.9090909090909,sports2d,unknown
+Release Candidate,123,2.084745762711864,100.0,sports2d_raw_peak_fallback,medium

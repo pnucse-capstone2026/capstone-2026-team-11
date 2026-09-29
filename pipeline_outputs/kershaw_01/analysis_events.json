@@ -1,0 +1,50 @@
+{
+  "pitch_id": "kershaw_01",
+  "pitcher_name": "Clayton Kershaw",
+  "throwing_side": "left",
+  "events": {
+    "knee_lift": {
+      "frame": 46,
+      "source": "manual_reference",
+      "confidence": "manual"
+    },
+    "front_foot_contact": {
+      "frame": 116,
+      "source": "sports2d",
+      "confidence": "unknown"
+    },
+    "release": {
+      "frame": 123,
+      "source": "sports2d_raw_peak_fallback",
+      "confidence": "medium"
+    }
+  },
+  "arm_slot": {
+    "category": "Overhand",
+    "angle_deg": 53.372223026915385,
+    "confidence": "low",
+    "source": "sports2d_2d_projected"
+  },
+  "reference": {
+    "knee_lift_frame": 46,
+    "front_foot_contact_frame": null,
+    "release_frame": null,
+    "arm_slot_label": "overhand"
+  },
+  "automatic": {
+    "front_foot_contact_frame": 116,
+    "release_frame": 123,
+    "release_source": "sports2d_raw_peak_fallback",
+    "release_confidence": "medium",
+    "arm_slot_category": "Overhand",
+    "arm_slot_angle_deg": 53.372223026915385,
+    "arm_slot_confidence": "low"
+  },
+  "metadata": {
+    "fps": 59.000000000000156,
+    "coordinate_system": "single_camera_2d",
+    "release_definition": "wrist_motion_based_candidate",
+    "arm_slot_definition": "2d_projected_shoulder_to_wrist",
+    "manual_overrides_applied": false
+  }
+}

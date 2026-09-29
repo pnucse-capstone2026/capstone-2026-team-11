@@ -1,0 +1,2 @@
+﻿pitch_id,pitcher_name,throwing_side,knee_lift_frame,front_foot_contact_frame,release_frame,knee_lift_to_fc_sec,fc_to_release_sec,knee_lift_to_release_sec,fc_normalized_percent,knee_lift_source,front_foot_contact_source,release_source,release_confidence,arm_slot,arm_slot_angle_deg,arm_slot_confidence
+kershaw_01,Clayton Kershaw,left,46,116,123,1.1864406779661016,0.11864406779660985,1.3050847457627115,90.9090909090909,manual_reference,sports2d,sports2d_raw_peak_fallback,medium,Overhand,53.372223026915385,low
