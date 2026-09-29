@@ -1,0 +1,50 @@
+{
+  "pitch_id": "rogers_01",
+  "pitcher_name": "Tyler Rogers",
+  "throwing_side": "right",
+  "events": {
+    "knee_lift": {
+      "frame": 46,
+      "source": "manual_reference",
+      "confidence": "manual"
+    },
+    "front_foot_contact": {
+      "frame": 56,
+      "source": "sports2d",
+      "confidence": "unknown"
+    },
+    "release": {
+      "frame": 65,
+      "source": "sports2d_raw_local_peak_timing_fallback",
+      "confidence": "medium"
+    }
+  },
+  "arm_slot": {
+    "category": "Underhand",
+    "angle_deg": 13.142026600091837,
+    "confidence": "medium",
+    "source": "sports2d_2d_projected"
+  },
+  "reference": {
+    "knee_lift_frame": 46,
+    "front_foot_contact_frame": 56,
+    "release_frame": null,
+    "arm_slot_label": "submarine"
+  },
+  "automatic": {
+    "front_foot_contact_frame": 56,
+    "release_frame": 65,
+    "release_source": "sports2d_raw_local_peak_timing_fallback",
+    "release_confidence": "medium",
+    "arm_slot_category": "Underhand",
+    "arm_slot_angle_deg": 13.142026600091837,
+    "arm_slot_confidence": "medium"
+  },
+  "metadata": {
+    "fps": 60.00000000000021,
+    "coordinate_system": "single_camera_2d",
+    "release_definition": "wrist_motion_based_candidate",
+    "arm_slot_definition": "2d_projected_shoulder_to_wrist",
+    "manual_overrides_applied": false
+  }
+}
