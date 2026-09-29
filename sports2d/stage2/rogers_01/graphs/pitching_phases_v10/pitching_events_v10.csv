@@ -1,0 +1,3 @@
+﻿event,auto_frame,final_frame,timestamp,overridden,source,confidence,side,throwing_side,stride_side,pivot_side,automatic_selection_method,automatic_landing_method
+Maximum Knee Lift,54,54,0.9,False,automatic,high,left,,,,,
+Front Foot Contact,94,57,0.95,True,manual_override,manual,,right,left,right,opposite_foot_fallback,linked_ground_entry_to_strict
