@@ -8,8 +8,6 @@
 
 </div>
 
-> **한 문장으로:** 투구 영상을 올려 투수 영역을 지정하면 관절 움직임과 주요 이벤트 후보를 분석하고, 사용자가 원본 영상에서 결과를 검토·수정한 뒤 다른 투수와 비교할 수 있습니다.
-
 ![기준 투수 분석 화면과 세 주요 이벤트 프레임](docs/images/overview.png)
 
 <div align="center"><sub>기준 투수의 Knee Lift, 앞발 착지, 릴리스 후보 프레임</sub></div>
@@ -19,8 +17,6 @@
 ### 1.1. 국내외 시장 현황 및 문제점
 
 투구폼 분석에는 반복 재생과 육안 관찰 또는 별도의 측정 장비가 쓰입니다. 일반 영상만으로 주요 동작 시점을 일정한 기준으로 찾고 여러 투수의 시간 흐름을 비교하기는 어렵습니다. 단일 카메라 영상에서는 촬영 각도, 관절 가림, 화질에 따라 추정값이 달라집니다. 착수 단계에는 공 궤적의 다중 시점 시각화를 기획했으나, 방송 영상의 작은 공과 빠른 움직임, 가림, 모션 블러 때문에 투수 자세 기반의 반자동 분석으로 방향을 바꿨습니다.
-
-> **자료 보완:** 기존 국내외 서비스의 기능·비용·적용 범위를 조사한 뒤 출처를 붙여 비교합니다. 확인하지 않은 시장 규모나 성능 수치는 기재하지 않습니다.
 
 ### 1.2. 필요성과 기대효과
 
@@ -184,10 +180,12 @@ flowchart TD
 
 ## 8. 참고 문헌 및 출처
 
-- [Sports2D](https://github.com/davidpagnon/Sports2D): 영상 기반 관절 추출 도구. 사용 버전과 라이선스를 확인해 기재합니다.
-- 사용한 영상·이미지의 원출처와 이용 조건은 공개 자료를 게시할 때 각각 추가합니다.
-- [부산대학교 2026 졸업과제 저장소 템플릿](https://github.com/pnucse-capstone2026/Capstone-Template-2026)
-
+- [Sports2D](https://github.com/davidpagnon/Sports2D) — 영상의 2D 관절 추출에 사용. 개발자가 안내한 [Sports2D 논문](https://joss.theoj.org/papers/10.21105/joss.06849)도 참고.
+- [Streamlit 공식 문서](https://docs.streamlit.io/) — 웹 앱 구현 참고.
+- [Plotly Python 문서](https://plotly.com/python/) — 그래프와 3D 뷰어 구현 참고.
+- [Baseball Savant Arm Angle Leaderboard](https://baseballsavant.mlb.com/leaderboard/pitcher-arm-angles) — Arm Angle 용어와 측정 방식 비교 참고. 본 프로젝트의 2D Arm Slot 분류값과 동일한 지표는 아님.
+- 투구 영상 및 데이터: [MLB Baseball Savant (Statcast)](https://baseballsavant.mlb.com/)에서 수집한 자료를 분석과 화면 예시에 사용했습니다. 개별 투구 영상의 원본 URL은 별도로 기록하지 않았습니다.
+  
 ---
 
 <div align="center"><sub>11조 오타니 · 부산대학교 · 2026 졸업과제</sub></div>
