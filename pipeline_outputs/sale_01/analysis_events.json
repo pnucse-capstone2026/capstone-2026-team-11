@@ -1,0 +1,50 @@
+{
+  "pitch_id": "sale_01",
+  "pitcher_name": "Chris Sale",
+  "throwing_side": "left",
+  "events": {
+    "knee_lift": {
+      "frame": 130,
+      "source": "manual_reference",
+      "confidence": "manual"
+    },
+    "front_foot_contact": {
+      "frame": 171,
+      "source": "sports2d",
+      "confidence": "unknown"
+    },
+    "release": {
+      "frame": 178,
+      "source": "sports2d_validated_peak_normal",
+      "confidence": "high"
+    }
+  },
+  "arm_slot": {
+    "category": "Sidearm",
+    "angle_deg": 35.523764080640824,
+    "confidence": "high",
+    "source": "sports2d_2d_projected"
+  },
+  "reference": {
+    "knee_lift_frame": 130,
+    "front_foot_contact_frame": 172,
+    "release_frame": null,
+    "arm_slot_label": "sidearm"
+  },
+  "automatic": {
+    "front_foot_contact_frame": 171,
+    "release_frame": 178,
+    "release_source": "sports2d_validated_peak_normal",
+    "release_confidence": "high",
+    "arm_slot_category": "Sidearm",
+    "arm_slot_angle_deg": 35.523764080640824,
+    "arm_slot_confidence": "high"
+  },
+  "metadata": {
+    "fps": 60.00000000000021,
+    "coordinate_system": "single_camera_2d",
+    "release_definition": "wrist_motion_based_candidate",
+    "arm_slot_definition": "2d_projected_shoulder_to_wrist",
+    "manual_overrides_applied": false
+  }
+}

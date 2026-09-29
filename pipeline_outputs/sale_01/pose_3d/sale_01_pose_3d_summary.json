@@ -1,0 +1,11 @@
+{
+  "pitch_id": "sale_01",
+  "source_video": "C:\\Users\\dkfc9\\Desktop\\pitching_analysis\\results\\pose\\sample_pitcher_only.mp4",
+  "fps": 59.616,
+  "video_frame_count": 396,
+  "detected_frame_count": 396,
+  "detected_frame_ratio": 1.0,
+  "joint_count": 13,
+  "method": "MediaPipe Tasks Pose Landmarker World Landmarks (single-view model-estimated 3D)",
+  "interpretation": "Visualization-oriented monocular 3D pose estimate. Not motion-capture-grade absolute joint coordinates."
+}
