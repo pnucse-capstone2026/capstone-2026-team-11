@@ -1,0 +1,27 @@
+{
+  "fps": 60.00000000000021,
+  "throwing_side": "right",
+  "stride_side": "left",
+  "used_foot_joints": [
+    "left_ankle",
+    "left_heel",
+    "left_big_toe",
+    "left_small_toe"
+  ],
+  "preliminary_anchor_frame": 58,
+  "min_offset_sec": -0.22,
+  "target_offset_sec": -0.1,
+  "max_offset_sec": 0.04,
+  "search_start_frame": 45,
+  "search_end_frame": 60,
+  "adaptive_stable_threshold": 0.014403628038872504,
+  "adaptive_moving_threshold": 0.03145436531263727,
+  "front_foot_contact_frame": 56,
+  "fc_offset_frames_from_anchor": -2,
+  "fc_offset_sec_from_anchor": -0.033333333333333215,
+  "chosen_score": 10.00798209072473,
+  "chosen_timing_score": 0.523809523809523,
+  "chosen_speed_ratio": 19.799983596659292,
+  "chosen_speed_drop": 0.029375741710764812,
+  "method": "preliminary anchor window + foot-lock quality + weak timing prior; lock frame = FC"
+}
