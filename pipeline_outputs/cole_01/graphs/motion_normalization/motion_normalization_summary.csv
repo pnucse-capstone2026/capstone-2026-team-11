@@ -1,0 +1,2 @@
+﻿pitch_id,pitcher_name,throwing_side,knee_lift_frame,front_foot_contact_frame,release_frame,knee_lift_to_fc_sec,fc_to_release_sec,knee_lift_to_release_sec,fc_normalized_percent,knee_lift_source,front_foot_contact_source,release_source,release_confidence,arm_slot,arm_slot_angle_deg,arm_slot_confidence
+cole_01,Gerrit Cole,right,134,177,185,0.7166666666666668,0.13333333333333286,0.8499999999999996,84.31372549019608,manual_reference,sports2d,sports2d_validated_peak_normal,high,Three-Quarter,74.75949617396735,low
