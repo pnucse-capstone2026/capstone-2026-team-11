@@ -1,0 +1,50 @@
+{
+  "pitch_id": "verlander_01",
+  "pitcher_name": "Justin Verlander",
+  "throwing_side": "right",
+  "events": {
+    "knee_lift": {
+      "frame": 152,
+      "source": "manual_reference",
+      "confidence": "manual"
+    },
+    "front_foot_contact": {
+      "frame": 191,
+      "source": "sports2d",
+      "confidence": "unknown"
+    },
+    "release": {
+      "frame": 197,
+      "source": "sports2d_validated_peak_normal",
+      "confidence": "high"
+    }
+  },
+  "arm_slot": {
+    "category": "Three-Quarter",
+    "angle_deg": 40.65795749746786,
+    "confidence": "low",
+    "source": "sports2d_2d_projected"
+  },
+  "reference": {
+    "knee_lift_frame": 152,
+    "front_foot_contact_frame": 189,
+    "release_frame": null,
+    "arm_slot_label": "three_quarter"
+  },
+  "automatic": {
+    "front_foot_contact_frame": 191,
+    "release_frame": 197,
+    "release_source": "sports2d_validated_peak_normal",
+    "release_confidence": "high",
+    "arm_slot_category": "Three-Quarter",
+    "arm_slot_angle_deg": 40.65795749746786,
+    "arm_slot_confidence": "low"
+  },
+  "metadata": {
+    "fps": 60.00000000000021,
+    "coordinate_system": "single_camera_2d",
+    "release_definition": "wrist_motion_based_candidate",
+    "arm_slot_definition": "2d_projected_shoulder_to_wrist",
+    "manual_overrides_applied": false
+  }
+}
